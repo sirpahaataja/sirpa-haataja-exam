@@ -38,6 +38,7 @@ function App() {
   return (
     <>
       <h1>Osaamispäiväkirja 15.12.2025</h1>
+      <div className="formi">
       <form onSubmit={handleSubmit}>
         <label>Aihe: 
           <input type="text" id="aihe" name="aihe" required
@@ -59,17 +60,18 @@ function App() {
         </label>
         <button>Lisää uusi muistiinpano</button>
       </form>
+    </div>
       
       <h2>Muistiinpanot:</h2>
           <ul>
             {muistiinpanotListassa.map((item) => (
             <li key={item.id}>
-              {item.aihe}
-              {item.paiva}
-              {item.muistiinpano}
+              {item.aihe} /
+              {item.paiva} /
+              {item.muistiinpano} /
               <button type="button"                
                 onClick={() => poista(item.id)}
-                >Poista
+                > Poista
               </button>
             </li>
           ))} 
