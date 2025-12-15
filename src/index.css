@@ -38,4 +38,7 @@ button {
   margin: 10px;
   background-color: fuchsia;
 }
+li {
+  list-style-type: none;
+}
 
