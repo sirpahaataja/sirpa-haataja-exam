@@ -1,3 +1,11 @@
+Simppeli react-harjoitus, vain fronttia
+Lataa koodi ja pura kansio
+Kansiossa 
+ - npm install
+ - npm run dev
+Selaimessa localhost:portti
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
