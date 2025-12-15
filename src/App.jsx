@@ -66,9 +66,9 @@ function App() {
           <ul>
             {muistiinpanotListassa.map((item) => (
             <li key={item.id}>
-              {item.aihe} /
-              {item.paiva} /
-              {item.muistiinpano} /
+              {item.aihe} &nbsp;
+              {item.paiva} &nbsp;
+              {item.muistiinpano} &nbsp;
               <button type="button"                
                 onClick={() => poista(item.id)}
                 > Poista
